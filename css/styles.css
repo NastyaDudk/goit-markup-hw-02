@@ -1,5 +1,5 @@
 .body {
-    font-family:'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height:24px;
     font-size: 16px;
     font-weight: 400;
@@ -15,7 +15,7 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+   color:#4d5ae5;
   }
 
   .menu-nav{
@@ -23,17 +23,21 @@
     font-weight: 500;
     font-size: 16px;
     text-align: left;
-    color: #2E2F42;
+    color:#2E2F42;
   
   }
    
 
   .studio-logo{
-    color:#2e2f42 ;
+    color:#2e2f42;
   }
 
   .accent{
     color: #4d5ae5;
+  }
+
+  .studio-text{
+    color:#2e2f42;
   }
 
   .text-header{
@@ -210,17 +214,18 @@ color: #434455;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:#4d5ae5 ;
 }
 
-.studio-logo-footer{
-  color:#f4f4fd;
-}
 
 .footer-text{
   line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
+}
+
+.studio-text-footer{
+  color:#f4f4fd;
 }
 
 
