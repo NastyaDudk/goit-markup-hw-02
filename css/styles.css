@@ -1,55 +1,193 @@
-body {
+.body {
     font-family:'Roboto';
     line-height:24px;
     font-size: 16px;
     font-weight: 400;
     color: #434455;
+    background-color:#FFFFFF;
+  }
+
+    /* Header */
+  .header-link{
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
   }
 
   .menu-nav{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
     text-align: left;
     color: #2E2F42;
   
   }
-  .header-link{
-   width: 115px;
-   height: 24px;
-   top: 24px;
-  }
-  
-  .contacts{
-     width: 153px;
-     height: 24px;
-     top: 24px;
-     left: 940px;
-     font-family: 'Roboto';
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 24px;
-     text-align: left;
-     background-color: #434455;
-     color: #2E2F42;
+   
 
-  }
-  .contacts:hover {
-    color:blue;
-  }
-  
-  .contacts:focus {
-   color:blue;
+  .studio-logo{
+    color: #2e2f42;
   }
 
-  .click-button {
-    font-weight: 169px;
-    line-height: 56px;
-    border: none;
-    background: #4D5AE5;
-    cursor: pointer;
-    padding: 16px,32px,16px,32px;
+  .text-header{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
-  
+
+  .text-header:hover{
+    color: #404bbf;
+  }
+
+  .text-header:focus{
+    color: #404bbf;
+  }
+
+  .address{
+    font-style: normal;
+  } 
+
+  .add-contacts{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+     color: #434455;
+  }
+
+  .add-contacts:hover{
+    color: #404bbf;
+  }
+
+  .add-contacts:focus{
+    color: #404bbf;
+  }
+
+
+  /* Main Section 1 */
+
+ .hero-section{
+  background-color:#2e2f42 ;
+ }
+ 
+ .hero-title{
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+ }
+
+ .hero-button{
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+ }
+
+ .hero-button:hover{
+  background-color: #404BBF;
+ }
+
+ .hero-button:focus{
+  background-color: #404BBF;
+ }
+
+/* Main Section 3 */
+
+.benefit-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefit-text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455 ;
+}
+
+/* Main Section 3 */
+
+.team-section{
+  background-color: #F4F4FD;
+}
+
+.section-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42 ;
+}
+
+.team-card{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.person-job{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Main Section 4 */
+
+.section-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:  #2e2f42;
+}
+
+
+.for-people{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+
+.what-is-it{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455 ;
+}
+
+/* Footer */
+
+.footer{
+  background-color:#2e2f42 ;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo{
+   color:#f4f4fd;
+}
+
+.footer-text{
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
+}
+
+
   
