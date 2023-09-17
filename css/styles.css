@@ -71,11 +71,11 @@
 }
 
 
-.cont-add:hover{
+.ma-tel:hover{
   color:#404bbf;
 }
 
-.cont-add:focus{
+.ma-tel:focus{
   color:#404bbf;
 }
 
@@ -161,7 +161,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color:#2e2f42 ;
 }
   
 .apps{
